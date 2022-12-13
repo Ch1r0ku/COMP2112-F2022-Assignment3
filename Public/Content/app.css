@@ -1,1 +1,60 @@
-/* Costom CSS */
+/* CSS for App component */
+ul li {
+    list-style: none;
+}
+.homelink {
+    font-size: large;
+    border: 2px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 10px;
+}
+.custom__image, img.img {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.custom__image {
+    width: 75%;
+}
+.img.img {
+    width: 100%;
+}
+.custom__row {
+    text-align: center;
+}
+.custom__row p {
+    margin: 20px 10px 40px 10px;
+}
+/* .custom__row .col-xl-4{
+    border: 1px solid black;
+    padding-top: 5px;
+} */
+img#homelogo, button#aboutUsButton, .custom_Button {
+    width: 250px; 
+    height: 250px; 
+    border: 1px solid black; 
+    border-radius: 1rem;
+}
+img#homelogo, .custom_Button {
+    cursor: pointer;
+    color: #fff;
+    background-color: #198754;
+    transition: all 1s cubic-bezier(0.19,-0.22, 0.88, 1.25);
+}
+.custom_Button:hover, img#homelogo:hover {
+    border-color: #198754;
+    background-color: #fff;
+    transform: rotateY(180deg) scaleX(-1);
+    transition: all 1s cubic-bezier(0.19,-0.22, 0.88, 1.25);
+}
+img#homelogo:hover {
+    filter: invert();
+}
+.rowButton button{
+    width: 50%;
+    padding: 1rem 1em 1rem 1em;
+}
+.container-fluid .homediv.row.align-items-center {
+    height: 50vh;
+}
