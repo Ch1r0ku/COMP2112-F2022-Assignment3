@@ -2,6 +2,8 @@
   "name": "Assignment3",
   "version": "1.0.0",
   "main": "server.js",
+  "repository": "https://github.com/Ch1r0ku/COMP2112-F2022-Assignment3.git",
+  "author": "Ch1r0ku <romanlysenkowork@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "node --watch server.js"

@@ -12,7 +12,7 @@ router.get('/home', function (req, res, next) {
     res.render('index', { title: 'Home', page: 'home' });
 });
 router.get('/about', function (req, res, next) {
-    res.render('index', { title: 'About Us', page: 'about' });
+    res.render('index', { title: 'About Me', page: 'about' });
 });
 router.get('/projects', function (req, res, next) {
     res.render('index', { title: 'Projects', page: 'projects' });
